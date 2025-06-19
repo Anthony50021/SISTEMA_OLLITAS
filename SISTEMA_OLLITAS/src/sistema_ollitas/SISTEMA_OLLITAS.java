@@ -14,10 +14,8 @@ public class SISTEMA_OLLITAS {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Pongame 20");
-        System.out.println("Pa mi 21");
-        System.out.println("pa mi 22");
-        System.out.println("aaaaa");
+       frmLogin login = new frmLogin();
+        login.setVisible(true);
     }
     
 }

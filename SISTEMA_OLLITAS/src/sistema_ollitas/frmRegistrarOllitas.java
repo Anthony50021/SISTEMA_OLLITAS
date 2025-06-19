@@ -56,10 +56,21 @@ public class frmRegistrarOllitas extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
         jLabel7.setText("Contacto Emergencia");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        txtContacto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtContactoActionPerformed(evt);
+            }
+        });
         getContentPane().add(txtContacto, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, 150, -1));
 
         btnRegistrarOllita.setFont(new java.awt.Font("Consolas", 3, 14)); // NOI18N
         btnRegistrarOllita.setText("Registrar Ollita");
+        btnRegistrarOllita.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistrarOllitaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -82,6 +93,14 @@ public class frmRegistrarOllitas extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegistrarOllitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarOllitaActionPerformed
+        
+    }//GEN-LAST:event_btnRegistrarOllitaActionPerformed
+
+    private void txtContactoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContactoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtContactoActionPerformed
 
     /**
      * @param args the command line arguments
