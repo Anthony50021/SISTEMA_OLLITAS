@@ -8,12 +8,12 @@ package sistema_ollitas;
  *
  * @author Juan Daniel
  */
-public class frmRegistrarOllita extends javax.swing.JFrame {
+public class frmRegistrarOllitas extends javax.swing.JFrame {
 
     /**
-     * Creates new form frmRegistrarOllita
+     * Creates new form frmRegistrarOllitas
      */
-    public frmRegistrarOllita() {
+    public frmRegistrarOllitas() {
         initComponents();
     }
 
@@ -26,45 +26,54 @@ public class frmRegistrarOllita extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        txtDireccion = new javax.swing.JTextField();
         txtNombre = new javax.swing.JTextField();
-        txtContacto = new javax.swing.JPasswordField();
+        txtDirección = new javax.swing.JPasswordField();
+        jLabel7 = new javax.swing.JLabel();
+        txtContacto = new javax.swing.JTextField();
         btnRegistrarOllita = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jLabel1.setFont(new java.awt.Font("Consolas", 3, 36)); // NOI18N
-        jLabel1.setText("Registrar Ollita");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 380, -1));
+        jLabel1.setText("Registrar Ollitas");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 380, -1));
 
         jLabel2.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
-        jLabel2.setText("Contacto Emergencia");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, 20));
+        jLabel2.setText("Dirección");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
-        jLabel3.setText("Dirección");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+        jLabel3.setText("Nombre");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+        getContentPane().add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, 250, -1));
+        getContentPane().add(txtDirección, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 250, -1));
 
-        jLabel5.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
-        jLabel5.setText("Nombre");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
-        jPanel1.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 90, 240, -1));
-        jPanel1.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 240, -1));
-        jPanel1.add(txtContacto, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 140, -1));
+        jLabel7.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
+        jLabel7.setText("Contacto Emergencia");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+        getContentPane().add(txtContacto, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, 150, -1));
 
         btnRegistrarOllita.setFont(new java.awt.Font("Consolas", 3, 14)); // NOI18N
         btnRegistrarOllita.setText("Registrar Ollita");
-        jPanel1.add(btnRegistrarOllita, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 170, -1));
+        getContentPane().add(btnRegistrarOllita, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 170, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 230));
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 240, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 240));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -86,20 +95,20 @@ public class frmRegistrarOllita extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(frmRegistrarOllita.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmRegistrarOllitas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(frmRegistrarOllita.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmRegistrarOllitas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(frmRegistrarOllita.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmRegistrarOllitas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(frmRegistrarOllita.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmRegistrarOllitas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new frmRegistrarOllita().setVisible(true);
+                new frmRegistrarOllitas().setVisible(true);
             }
         });
     }
@@ -109,10 +118,10 @@ public class frmRegistrarOllita extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPasswordField txtContacto;
-    private javax.swing.JTextField txtDireccion;
+    private javax.swing.JTextField txtContacto;
+    private javax.swing.JPasswordField txtDirección;
     private javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
 }
