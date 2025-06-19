@@ -56,12 +56,12 @@ public class frmAdministrador extends javax.swing.JFrame {
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
         cboOpcionesAdmin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Registrar Usuario", "Asignar Rol", "Registrar Ollita", "Editar Ollita", "Eliminar Ollita", "Cosultar Ollitas", "Registrar Insumo", "Editar Insumo", "Eliminar Insumo", "Consultar Inventario", "Registrar Donante", "Registrar Donación", "Editar Donación", "Eliminar Donación", "Consultar Donaciones", "Gestionar Solicitudes", "Historial de Entregas", "Registrar Evento Especial", "Agregar Observación a Ollita" }));
-        jPanel1.add(cboOpcionesAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+        jPanel1.add(cboOpcionesAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, -1, -1));
 
         btnIr.setText("IR");
-        jPanel1.add(btnIr, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, -1, -1));
+        jPanel1.add(btnIr, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
