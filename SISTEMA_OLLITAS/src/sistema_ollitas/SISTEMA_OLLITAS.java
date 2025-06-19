@@ -18,6 +18,7 @@ public class SISTEMA_OLLITAS {
         System.out.println("Pa mi 21");
         System.out.println("pa mi 22");
         System.out.println("aaaaa");
+        System.out.println("al pincho waa");
     }
     
 }
