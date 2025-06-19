@@ -77,7 +77,7 @@ public class frmRegistrarUsuario extends javax.swing.JFrame {
 
         btnRegistrarUsuario.setFont(new java.awt.Font("Consolas", 3, 14)); // NOI18N
         btnRegistrarUsuario.setText("Registrar Usuario");
-        jPanel1.add(btnRegistrarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, 170, -1));
+        jPanel1.add(btnRegistrarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, 170, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 270));
 
