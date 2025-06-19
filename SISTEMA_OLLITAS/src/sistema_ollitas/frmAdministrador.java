@@ -27,41 +27,58 @@ public class frmAdministrador extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        cboOpcionesAdmin = new javax.swing.JComboBox<>();
+        cboOpcionesResponsable = new javax.swing.JComboBox<>();
         btnIr = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setText("Bienvenido al panel de Administradores");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 6, -1, -1));
-
-        jLabel2.setText("Bienvenido al panel de Administradores");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 6, -1, -1));
-
-        jLabel3.setText("Bienvenido al panel de Administradores");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 6, -1, -1));
-
-        jLabel4.setText("Bienvenido al panel de Administradores");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 6, -1, -1));
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setText("Bienvenido al panel del Responsable de la Ollita");
 
         jLabel5.setText("Seleccione una Opcion");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
-        cboOpcionesAdmin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Registrar Usuario", "Asignar Rol", "Registrar Ollita", "Editar Ollita", "Eliminar Ollita", "Cosultar Ollitas", "Registrar Insumo", "Editar Insumo", "Eliminar Insumo", "Consultar Inventario", "Registrar Donante", "Registrar Donación", "Editar Donación", "Eliminar Donación", "Consultar Donaciones", "Gestionar Solicitudes", "Historial de Entregas", "Registrar Evento Especial", "Agregar Observación a Ollita" }));
-        jPanel1.add(cboOpcionesAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, -1, -1));
+        cboOpcionesResponsable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Registrar Solicitud de Insumo", "Confirmar Recepción", "Ver Mis Solicitudes", "Ver Inventario", "Registrar Observación", "Ver Eventos" }));
 
         btnIr.setText("IR");
-        jPanel1.add(btnIr, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 210));
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel3))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(jLabel5))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(72, 72, 72)
+                        .addComponent(cboOpcionesResponsable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(129, 129, 129)
+                        .addComponent(btnIr)))
+                .addContainerGap(73, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(25, 25, 25)
+                .addComponent(jLabel3)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel5)
+                .addGap(18, 18, 18)
+                .addComponent(cboOpcionesResponsable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(26, 26, 26)
+                .addComponent(btnIr)
+                .addContainerGap(26, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 190));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -103,11 +120,8 @@ public class frmAdministrador extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIr;
-    private javax.swing.JComboBox<String> cboOpcionesAdmin;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JComboBox<String> cboOpcionesResponsable;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
