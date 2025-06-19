@@ -29,7 +29,7 @@ public class frmAdministrador extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        cboOpcionesResponsable = new javax.swing.JComboBox<>();
+        cboOpcionesAdmin = new javax.swing.JComboBox<>();
         btnIr = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -40,7 +40,7 @@ public class frmAdministrador extends javax.swing.JFrame {
 
         jLabel5.setText("Seleccione una Opcion");
 
-        cboOpcionesResponsable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Registrar Solicitud de Insumo", "Confirmar Recepción", "Ver Mis Solicitudes", "Ver Inventario", "Registrar Observación", "Ver Eventos" }));
+        cboOpcionesAdmin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Registrar Solicitud de Insumo", "Confirmar Recepción", "Ver Mis Solicitudes", "Ver Inventario", "Registrar Observación", "Ver Eventos" }));
 
         btnIr.setText("IR");
 
@@ -58,12 +58,11 @@ public class frmAdministrador extends javax.swing.JFrame {
                         .addComponent(jLabel5))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(72, 72, 72)
-                        .addComponent(cboOpcionesResponsable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(cboOpcionesAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(128, 128, 128)
+                        .addComponent(btnIr)))
                 .addContainerGap(73, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnIr)
-                .addGap(127, 127, 127))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -73,10 +72,10 @@ public class frmAdministrador extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel5)
                 .addGap(18, 18, 18)
-                .addComponent(cboOpcionesResponsable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(cboOpcionesAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnIr)
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 190));
@@ -121,7 +120,7 @@ public class frmAdministrador extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIr;
-    private javax.swing.JComboBox<String> cboOpcionesResponsable;
+    private javax.swing.JComboBox<String> cboOpcionesAdmin;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
