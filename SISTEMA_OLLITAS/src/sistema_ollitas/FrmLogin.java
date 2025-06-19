@@ -27,24 +27,38 @@ public class FrmLogin extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        txtUsuario = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        txtClave = new javax.swing.JButton();
+        btnLogin = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("USUARIO ");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 43, -1, -1));
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 43, 212, 22));
+        getContentPane().add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 43, 212, 22));
 
         jLabel3.setText("CLAVE");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 80, -1, -1));
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 71, 212, 25));
+        getContentPane().add(txtClave, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 71, 212, 25));
 
-        jButton3.setText("INICIAR SESION");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(152, 125, 169, 43));
+        btnLogin.setText("INICIAR SESION");
+        getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(152, 125, 169, 43));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 440, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 230, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 230));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -85,10 +99,11 @@ public class FrmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton btnLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton txtClave;
+    private javax.swing.JButton txtUsuario;
     // End of variables declaration//GEN-END:variables
 }
