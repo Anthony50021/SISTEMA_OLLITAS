@@ -79,7 +79,7 @@ public class frmRegistrarUsuario extends javax.swing.JFrame {
         btnRegistrarUsuario.setText("Registrar Usuario");
         jPanel1.add(btnRegistrarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, 170, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 280));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 270));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
