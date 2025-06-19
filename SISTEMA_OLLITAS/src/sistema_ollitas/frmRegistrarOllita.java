@@ -42,7 +42,7 @@ public class frmRegistrarOllita extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Consolas", 3, 36)); // NOI18N
-        jLabel1.setText("Registrar Usuarios");
+        jLabel1.setText("Registrar Ollita");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 380, -1));
 
         jLabel2.setFont(new java.awt.Font("Consolas", 3, 18)); // NOI18N
