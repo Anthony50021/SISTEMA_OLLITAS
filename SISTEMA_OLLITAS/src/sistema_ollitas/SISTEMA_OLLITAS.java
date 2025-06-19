@@ -16,6 +16,7 @@ public class SISTEMA_OLLITAS {
     public static void main(String[] args) {
         System.out.println("Pongame 20");
         System.out.println("Pa mi 21");
+        System.out.println("pa mi 22");
     }
     
 }
