@@ -33,8 +33,8 @@ public class frmRegistrarOllitas extends javax.swing.JFrame {
         txtDirección = new javax.swing.JPasswordField();
         jLabel7 = new javax.swing.JLabel();
         txtContacto = new javax.swing.JTextField();
-        btnRegistrarOllita = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
+        btnRegistrarOllita = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -60,17 +60,22 @@ public class frmRegistrarOllitas extends javax.swing.JFrame {
 
         btnRegistrarOllita.setFont(new java.awt.Font("Consolas", 3, 14)); // NOI18N
         btnRegistrarOllita.setText("Registrar Ollita");
-        getContentPane().add(btnRegistrarOllita, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 170, -1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(116, Short.MAX_VALUE)
+                .addComponent(btnRegistrarOllita, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(114, 114, 114))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 240, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(159, Short.MAX_VALUE)
+                .addComponent(btnRegistrarOllita)
+                .addGap(57, 57, 57))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 240));
