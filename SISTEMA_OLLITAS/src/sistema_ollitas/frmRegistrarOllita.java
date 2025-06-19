@@ -62,7 +62,7 @@ public class frmRegistrarOllita extends javax.swing.JFrame {
 
         btnRegistrarOllita.setFont(new java.awt.Font("Consolas", 3, 14)); // NOI18N
         btnRegistrarOllita.setText("Registrar Ollita");
-        jPanel1.add(btnRegistrarOllita, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 170, -1));
+        jPanel1.add(btnRegistrarOllita, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 170, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 230));
 
