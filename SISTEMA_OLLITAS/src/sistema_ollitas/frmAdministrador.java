@@ -61,7 +61,7 @@ public class frmAdministrador extends javax.swing.JFrame {
         btnIr.setText("IR");
         jPanel1.add(btnIr, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 210));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 210));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
