@@ -5,12 +5,12 @@
 
 /**
  *
- * @author Usser
+ * @author Juan Daniel
  */
 public class AdminFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form AdminFrame
+     * Creates new form LoginFrame
      */
     public AdminFrame() {
         initComponents();
@@ -25,21 +25,120 @@ public class AdminFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        btnProductos = new javax.swing.JButton();
+        btnEventos = new javax.swing.JButton();
+        btnUsuarios = new javax.swing.JButton();
+        btnDonaciones = new javax.swing.JButton();
+        btnVoluntarios = new javax.swing.JButton();
+        btnBeneficiarios = new javax.swing.JButton();
+        btnRecetas = new javax.swing.JButton();
+        btnInventario = new javax.swing.JButton();
+        btnReportes = new javax.swing.JButton();
+        btnCerrarSesion = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnProductos.setText("Gestion de Productos");
+
+        btnEventos.setText("Gestion de Eventos");
+
+        btnUsuarios.setText("Gestion de Usuarios");
+        btnUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUsuariosActionPerformed(evt);
+            }
+        });
+
+        btnDonaciones.setText("Gestion de Donaciones");
+        btnDonaciones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDonacionesActionPerformed(evt);
+            }
+        });
+
+        btnVoluntarios.setText("Gestion de Volutariados");
+
+        btnBeneficiarios.setText("Gestion de Beneficiarios");
+
+        btnRecetas.setText("Gestion de Recetas");
+
+        btnInventario.setText("Ver Inventario");
+
+        btnReportes.setText("Reportes");
+
+        btnCerrarSesion.setText("Cerrar sesion");
+
+        jLabel1.setBackground(new java.awt.Color(102, 255, 255));
+        jLabel1.setText("Administrador");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(59, 59, 59)
+                .addComponent(btnReportes)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnCerrarSesion)
+                .addGap(37, 37, 37))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(23, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnInventario)
+                    .addComponent(btnRecetas)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(btnBeneficiarios)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnDonaciones)
+                            .addComponent(btnVoluntarios)
+                            .addComponent(btnUsuarios)
+                            .addComponent(btnEventos)
+                            .addComponent(btnProductos))))
+                .addGap(279, 279, 279))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(145, 145, 145)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(9, 9, 9)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnProductos)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnEventos)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnUsuarios)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnDonaciones)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnVoluntarios)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnBeneficiarios)
+                .addGap(18, 18, 18)
+                .addComponent(btnRecetas)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnInventario)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCerrarSesion)
+                    .addComponent(btnReportes))
+                .addGap(15, 15, 15))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnUsuariosActionPerformed
+
+    private void btnDonacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDonacionesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnDonacionesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -67,6 +166,7 @@ public class AdminFrame extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(AdminFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -77,5 +177,16 @@ public class AdminFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnBeneficiarios;
+    private javax.swing.JButton btnCerrarSesion;
+    private javax.swing.JButton btnDonaciones;
+    private javax.swing.JButton btnEventos;
+    private javax.swing.JButton btnInventario;
+    private javax.swing.JButton btnProductos;
+    private javax.swing.JButton btnRecetas;
+    private javax.swing.JButton btnReportes;
+    private javax.swing.JButton btnUsuarios;
+    private javax.swing.JButton btnVoluntarios;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
