@@ -25,21 +25,120 @@ public class AdminFrame1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        btnCerrarSesion = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        btnProductos = new javax.swing.JButton();
+        btnEventos = new javax.swing.JButton();
+        btnUsuarios = new javax.swing.JButton();
+        btnDonaciones = new javax.swing.JButton();
+        btnVoluntarios = new javax.swing.JButton();
+        btnBeneficiarios = new javax.swing.JButton();
+        btnRecetas = new javax.swing.JButton();
+        btnReportes = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnCerrarSesion.setText("Cerrar sesion");
+
+        jLabel1.setBackground(new java.awt.Color(102, 255, 255));
+        jLabel1.setText("Administrador");
+
+        btnProductos.setText("Gestion de Productos");
+
+        btnEventos.setText("Gestion de Eventos");
+
+        btnUsuarios.setText("Gestion de Usuarios");
+        btnUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUsuariosActionPerformed(evt);
+            }
+        });
+
+        btnDonaciones.setText("Gestion de Donaciones");
+        btnDonaciones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDonacionesActionPerformed(evt);
+            }
+        });
+
+        btnVoluntarios.setText("Gestion de Volutariados");
+
+        btnBeneficiarios.setText("Gestion de Beneficiarios");
+
+        btnRecetas.setText("Gestion de Recetas");
+
+        btnReportes.setText("Reportes");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(btnReportes)
+                .addContainerGap(288, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(1, 1, 1)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(btnCerrarSesion, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(btnRecetas)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(btnBeneficiarios)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(btnDonaciones)
+                                        .addComponent(btnVoluntarios)
+                                        .addComponent(btnUsuarios)
+                                        .addComponent(btnEventos)
+                                        .addComponent(btnProductos))))
+                            .addGap(242, 242, 242))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(122, 122, 122)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(346, Short.MAX_VALUE)
+                .addComponent(btnReportes)
+                .addGap(34, 34, 34))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnProductos)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnEventos)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnUsuarios)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnDonaciones)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnVoluntarios)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(btnBeneficiarios)
+                    .addGap(18, 18, 18)
+                    .addComponent(btnRecetas)
+                    .addGap(83, 83, 83)
+                    .addComponent(btnCerrarSesion)
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnUsuariosActionPerformed
+
+    private void btnDonacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDonacionesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnDonacionesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -77,5 +176,15 @@ public class AdminFrame1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnBeneficiarios;
+    private javax.swing.JButton btnCerrarSesion;
+    private javax.swing.JButton btnDonaciones;
+    private javax.swing.JButton btnEventos;
+    private javax.swing.JButton btnProductos;
+    private javax.swing.JButton btnRecetas;
+    private javax.swing.JButton btnReportes;
+    private javax.swing.JButton btnUsuarios;
+    private javax.swing.JButton btnVoluntarios;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
