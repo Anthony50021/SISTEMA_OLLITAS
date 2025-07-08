@@ -26,18 +26,112 @@ public class EventoFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        txtNombreEvento = new javax.swing.JTextField();
+        txtLugar = new javax.swing.JTextField();
+        dateEvento = new com.toedter.calendar.JDateChooser();
+        lstVoluntarios = new java.awt.List();
+        lstBeneficiarios = new java.awt.List();
+        lstBeneficiarios1 = new java.awt.List();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        tblEventos = new javax.swing.JTable();
+        btnEliminarEvento = new javax.swing.JButton();
+        btnRegistrarEvento1 = new javax.swing.JButton();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        jLabel1.setFont(new java.awt.Font("SimSun", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel1.setText("SISTEMA DE OLLITAS COMUNES");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setFont(new java.awt.Font("SimSun", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel2.setText("Registro de eventos");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, -1, -1));
+
+        jLabel3.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel3.setText("Nombre evento");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel4.setText("Lugar");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel5.setText("Fecha evento");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel6.setText("Lista Voluntarios");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel7.setText("Lista Beneficiarios");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel8.setText("Tabla eventos");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("SimSun", 1, 16)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel9.setText("Lista Productos");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+        jPanel1.add(txtNombreEvento, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 86, 246, -1));
+        jPanel1.add(txtLugar, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 133, 246, -1));
+        jPanel1.add(dateEvento, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 181, -1, -1));
+        jPanel1.add(lstVoluntarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 234, 197, 19));
+        jPanel1.add(lstBeneficiarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 280, 197, 19));
+        jPanel1.add(lstBeneficiarios1, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 335, 197, 18));
+
+        tblEventos.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(tblEventos);
+
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 380, 170));
+
+        btnEliminarEvento.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnEliminarEvento.setForeground(new java.awt.Color(0, 0, 51));
+        btnEliminarEvento.setText("ELIMINAR");
+        btnEliminarEvento.setBorder(null);
+        btnEliminarEvento.setBorderPainted(false);
+        jPanel1.add(btnEliminarEvento, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 460, 128, 40));
+
+        btnRegistrarEvento1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnRegistrarEvento1.setForeground(new java.awt.Color(0, 0, 51));
+        btnRegistrarEvento1.setText("REGISTRAR");
+        btnRegistrarEvento1.setBorder(null);
+        btnRegistrarEvento1.setBorderPainted(false);
+        jPanel1.add(btnRegistrarEvento1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 390, 128, 40));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 570));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -78,5 +172,25 @@ public class EventoFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnEliminarEvento;
+    private javax.swing.JButton btnRegistrarEvento1;
+    private com.toedter.calendar.JDateChooser dateEvento;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private java.awt.List lstBeneficiarios;
+    private java.awt.List lstBeneficiarios1;
+    private java.awt.List lstVoluntarios;
+    private javax.swing.JTable tblEventos;
+    private javax.swing.JTextField txtLugar;
+    private javax.swing.JTextField txtNombreEvento;
     // End of variables declaration//GEN-END:variables
 }
