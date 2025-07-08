@@ -27,18 +27,31 @@ public class ConfiguracionFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        txtNuevaClave = new javax.swing.JTextField();
+        jPanel1 = new javax.swing.JPanel();
+        cmbParametros = new javax.swing.JComboBox<>();
+        btnGuardarConfig = new javax.swing.JButton();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setText("Combo opciones");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, -1));
+
+        jLabel2.setText("Cambio de clave");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
+        getContentPane().add(txtNuevaClave, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 150, -1));
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.add(cmbParametros, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 150, -1));
+
+        btnGuardarConfig.setText("GUARDAR");
+        jPanel1.add(btnGuardarConfig, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, -1, -1));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 200));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +92,11 @@ public class ConfiguracionFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnGuardarConfig;
+    private javax.swing.JComboBox<String> cmbParametros;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JTextField txtNuevaClave;
     // End of variables declaration//GEN-END:variables
 }
