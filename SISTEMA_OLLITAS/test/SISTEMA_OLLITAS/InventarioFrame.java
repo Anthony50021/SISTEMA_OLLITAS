@@ -1,3 +1,5 @@
+package SISTEMA_OLLITAS;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -5,14 +7,14 @@
 
 /**
  *
- * @author pumak
+ * @author Usser
  */
-public class BeneficiarioFrame extends javax.swing.JFrame {
+public class InventarioFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form BeneficiarioFrame
+     * Creates new form InventarioFrame
      */
-    public BeneficiarioFrame() {
+    public InventarioFrame() {
         initComponents();
     }
 
@@ -58,20 +60,20 @@ public class BeneficiarioFrame extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(BeneficiarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InventarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(BeneficiarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InventarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(BeneficiarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InventarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(BeneficiarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InventarioFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new BeneficiarioFrame().setVisible(true);
+                new InventarioFrame().setVisible(true);
             }
         });
     }
